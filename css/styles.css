@@ -525,7 +525,7 @@ button {
 
 @media screen and (max-width: 900px) {
   .container{
-    max-width: 100%;
+    max-width:fit-content;
     width: 100%;
   }
   .hero {

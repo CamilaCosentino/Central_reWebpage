@@ -43,7 +43,7 @@
               </h2>
               <div class="separator"></div>
               <p>Los campos <b>*</b> son obligatorios</p>
-              <form action="" method="post">
+              <form method="post" enctype="application/x-www-form-urlencoded">
                 <div class="form__control">
                 <label for="" class="form__label">Nombre completo<b>*</b>
                 </label>
@@ -76,11 +76,11 @@
                             </label>
                             <select name="presupuesto" class="presupuesto">
                               <option value="0">Selecciona tu presupuesto</option>
-                              <option value="1">$150.000 - $300.000</option>
-                              <option value="2">$300.000 - $600.000</option>
-                              <option value="3">$600.000 - $1.000.000</option>
-                              <option value="4">$2.000.000 - $4.000.000</option>
-                              <option value="4">Más de $4.000.000</option>
+                              <option value="$150.000 - $300.000">$150.000 - $300.000</option>
+                              <option value="$300.000 - $600.000">$300.000 - $600.000</option>
+                              <option value="$600.000 - $1.000.000">$600.000 - $1.000.000</option>
+                              <option value="$2.000.000 - $4.000.000">$2.000.000 - $4.000.000</option>
+                              <option value="Más de $4.000.000">Más de $4.000.000</option>
                             </select>
                         </div>
                         <button type="submit" class="submit-btn">Enviar</button>
@@ -118,7 +118,7 @@
         <div class="featured__property__padding">
         <div class="featured__property__image">
           <div class="badget"><span>Desde $500K USD</span></div>
-          <img src="/img/featered_img.png" alt="featured__property">
+          <img src="/img/600_Miami.jpeg" alt="featured__property">
         </div>
         <div class="featured__property__content">
           <div class="main">
@@ -321,7 +321,7 @@
             <p>Todos los campos <b>*</b> son obligatorios</p>
             <div class="separator"></div>
             <div class="modal__form">
-              <form action="">
+              <form method="post" enctype="application/x-www-form-urlencoded">
                 <div class="form__control">
                   <label for="" class="form__label">Nombre Completo <b>*</b></label>
                   <input type="text" class="form__input fullname" name="fullname" id="fullname_modal">
@@ -338,11 +338,11 @@
                   <label for="" class="form__label">Presupuesto <b>*</b></label>
                   <select name="presupuesto form__select" id="presupuesto_modal">
                     <option value="0">Selecciona tu presupuesto</option>
-                    <option value="1">$150.000 - $300.000</option>
-                    <option value="2">$300.000 - $600.000</option>
-                    <option value="3">$600.000 - $1.000.000</option>
-                    <option value="4">$2.000.000 - $4.000.000</option>
-                    <option value="4">Más de $4.000.000</option>
+                    <option value="$150.000 - $300.000">$150.000 - $300.000</option>
+                    <option value="$300.000 - $600.000">$300.000 - $600.000</option>
+                    <option value="$600.000 - $1.000.000">$600.000 - $1.000.000</option>
+                    <option value="$2.000.000 - $4.000.000">$2.000.000 - $4.000.000</option>
+                    <option value="Más de $4.000.000">Más de $4.000.000</option>
                   </select>
                 </div>
                 <button type="submit" class="submit-btn">Enviar</button>
